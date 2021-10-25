@@ -32,6 +32,10 @@ class Gossip
         return Gossip.all[id]
     end
 
+    def update
+
+    end
+
 
 end
 

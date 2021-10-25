@@ -28,6 +28,15 @@ class ApplicationController < Sinatra::Base
            
     end
 
+    get '/gossips/id/edit/' do
+        erb :edit
+    end
+
+    post '/gossips/id/edit/' do 
+        
+        redirect '/'
+    end
+
     
 
    
